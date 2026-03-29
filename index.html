@@ -61,9 +61,10 @@
         "url": "https://nogbase.ae",
         "founder": { "@type": "Person", "name": "Ahmed Khaire" },
         "foundingDate": "2024",
-        "description": "B2B PropTech SaaS platform for real estate developers.",
+        "description": "Nogbase is a B2B PropTech SaaS platform that replaces the fragmented tools property developers rely on — spreadsheets, WhatsApp groups, and siloed CRMs — with a single, AI-powered operating system. The platform covers end-to-end developer operations including a broker management portal with self-service registration, real-time inventory access, EOI submission, automated commission tracking, and RERA-compliant documentation. It also provides sales CRM, AI document generation, payment collections, 3D inventory viewers, WhatsApp API integrations, customer handovers, and performance analytics.",
         "address": { "@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE" },
-        "areaServed": ["Dubai", "Abu Dhabi", "UAE", "Saudi Arabia"]
+        "areaServed": ["Dubai", "Abu Dhabi", "UAE", "Saudi Arabia"],
+        "knowsAbout": ["PropTech", "Real Estate CRM", "Broker Management", "Sales Automation", "Payment Collections", "AI Document Generation", "Inventory Management"]
     }
     </script>
 
@@ -74,7 +75,7 @@
         "@type": "FAQPage",
         "mainEntity": [
             { "@type": "Question", "name": "Who is Ahmed Khaire?", "acceptedAnswer": { "@type": "Answer", "text": "Ahmed Khaire is the Founder and CEO of Nogbase, a PropTech SaaS platform based in Dubai, UAE. He is a former Software Solutions Architect who builds technology that transforms how property developers operate. Contact: ahmed@nogbase.ae, +971544667767." } },
-            { "@type": "Question", "name": "What is Nogbase?", "acceptedAnswer": { "@type": "Answer", "text": "Nogbase is a B2B PropTech SaaS platform serving real estate developers in the UAE. It provides an end-to-end operating system unifying pre-sales, broker management, inventory releases, payment collections, and customer handovers in one intelligent CRM." } },
+            { "@type": "Question", "name": "What is Nogbase?", "acceptedAnswer": { "@type": "Answer", "text": "Nogbase is a B2B PropTech SaaS platform that solves the fragmentation problem in real estate development — where developers rely on disconnected spreadsheets, WhatsApp groups, and siloed CRMs to manage sales. Nogbase replaces this with a single AI-powered operating system covering broker management (self-service portal with registration, KYC, real-time inventory, EOI submission, and automated commission tracking), sales CRM, AI document generation, payment collections, 3D inventory viewers, WhatsApp API integrations, customer handovers, and performance analytics." } },
             { "@type": "Question", "name": "How can I contact or schedule a meeting with Ahmed Khaire?", "acceptedAnswer": { "@type": "Answer", "text": "Email ahmed@nogbase.ae, call +971544667767, book via Calendly at https://calendly.com/ahmed-nogbase/ahmed-nogbase, or connect on LinkedIn at linkedin.com/in/ahmed-khaire." } }
         ]
     }
@@ -152,10 +153,11 @@
         .bento {
             display:grid;
             grid-template-columns: 1fr 1.4fr 1.1fr 1fr;
-            grid-template-rows: minmax(310px, auto) minmax(430px, auto) auto auto;
+            grid-template-rows: minmax(310px, auto) auto auto auto auto;
             grid-template-areas:
                 "hero  about  about  schedule"
-                "nogbase career skills contact"
+                "nogbase nogbase nogbase contact"
+                "career career skills skills"
                 "projects projects projects projects"
                 "clients clients clients clients";
             gap:12px;
@@ -285,21 +287,51 @@
 
         /* ======================== NOGBASE CARD ======================== */
         .nogbase-card {
-            grid-area:nogbase; padding:20px; display:flex; flex-direction:column;
+            grid-area:nogbase; padding:28px 30px; display:flex; flex-direction:column;
         }
-        .nogbase-card__logo { height:22px; width:auto; object-fit:contain; margin-bottom:10px; align-self:flex-start; }
-        .nogbase-card__title { font-family:var(--serif); font-size:1.05rem; line-height:1.2; margin-bottom:6px; }
-        .nogbase-card__desc { font-size:0.82rem; color:var(--text-2); line-height:1.6; flex:1; }
-        .nogbase-card__features { display:flex; flex-wrap:wrap; gap:5px; margin-top:10px; }
+        .nogbase-card__header { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+        .nogbase-card__logo { height:24px; width:auto; object-fit:contain; }
+        .nogbase-card__title { font-family:var(--serif); font-size:1.45rem; line-height:1.25; margin-bottom:6px; letter-spacing:-0.01em; }
+        .nogbase-card__subtitle { font-size:0.88rem; color:var(--text-2); line-height:1.65; margin-bottom:20px; }
+        .nogbase-card__grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px; margin-bottom:18px; }
+        .nogbase-card__section {
+            padding:16px; border-radius:var(--r-sm); border:1px solid var(--border);
+            background:var(--bg); display:flex; flex-direction:column;
+        }
+        .nogbase-card__section-icon {
+            width:34px; height:34px; background:var(--accent-sub); border:1px solid rgba(43,103,119,0.1);
+            border-radius:9px; display:flex; align-items:center; justify-content:center;
+            margin-bottom:10px; color:var(--accent);
+        }
+        .nogbase-card__section-icon svg { width:16px; height:16px; }
+        .nogbase-card__section-title {
+            font-size:0.73rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
+            color:var(--accent); margin-bottom:6px;
+        }
+        .nogbase-card__section-text { font-size:0.8rem; color:var(--text-2); line-height:1.6; }
+        .nogbase-card__section-text strong { color:var(--text); font-weight:600; }
+        .nogbase-card__section--broker {
+            border-color:rgba(43,103,119,0.18); background:rgba(43,103,119,0.035);
+        }
+        .nogbase-card__broker-features { display:flex; flex-direction:column; gap:6px; margin-top:10px; }
+        .nogbase-card__broker-feature {
+            display:flex; align-items:flex-start; gap:6px; font-size:0.76rem; color:var(--text-2); line-height:1.45;
+        }
+        .nogbase-card__broker-feature svg { width:13px; height:13px; color:var(--accent); flex-shrink:0; margin-top:1px; }
+        .nogbase-card__bottom {
+            display:flex; align-items:center; justify-content:space-between;
+            margin-top:auto; padding-top:16px; border-top:1px solid var(--border);
+        }
+        .nogbase-card__features { display:flex; flex-wrap:wrap; gap:5px; }
         .nogbase-card__feature {
             padding:4px 10px; background:var(--accent-sub); border:1px solid rgba(43,103,119,0.06);
             border-radius:100px; font-size:0.74rem; font-weight:500; color:var(--accent);
         }
         .nogbase-card__link {
-            display:inline-flex; align-items:center; gap:4px; font-size:0.82rem; font-weight:600;
-            color:var(--accent); margin-top:10px; transition:gap 0.2s;
+            display:inline-flex; align-items:center; gap:5px; font-size:0.84rem; font-weight:600;
+            color:var(--accent); transition:gap 0.2s; white-space:nowrap;
         }
-        .nogbase-card__link:hover { gap:7px; }
+        .nogbase-card__link:hover { gap:8px; }
         .nogbase-card__link svg { width:13px; height:13px; }
 
         /* ======================== CAREER CARD ======================== */
@@ -420,7 +452,8 @@
                 grid-template-rows:auto;
                 grid-template-areas:
                     "hero about about"
-                    "schedule nogbase career"
+                    "nogbase nogbase nogbase"
+                    "schedule career career"
                     "contact skills skills"
                     "projects projects projects"
                     "clients clients clients";
@@ -438,11 +471,15 @@
                 grid-template-columns:1fr;
                 grid-template-rows: auto;
                 grid-template-areas:
-                    "hero" "about" "schedule" "projects"
-                    "contact" "nogbase" "career" "skills" "clients";
+                    "hero" "about" "nogbase" "schedule" "projects"
+                    "contact" "career" "skills" "clients";
                 gap:10px; padding:0 16px 16px;
             }
             .projects-card__grid { grid-template-columns:1fr; }
+            .nogbase-card__grid { grid-template-columns:1fr; }
+            .nogbase-card__bottom { flex-direction:column; gap:12px; align-items:flex-start; }
+            .nogbase-card { padding:20px; }
+            .nogbase-card__title { font-size:1.25rem; }
             .hero-card__photo { min-height:240px; }
             .about-card { padding:20px; }
             .about-card__lead { font-size:1.3rem; }
@@ -615,21 +652,80 @@
 
         <!-- NOGBASE -->
         <article class="card nogbase-card" id="nogbase">
-            <img src="assets/nogbase-logo.png" alt="Nogbase" class="nogbase-card__logo">
-            <h2 class="nogbase-card__title">The operating system for property developers</h2>
-            <p class="nogbase-card__desc">End-to-end B2B SaaS unifying pre-sales, broker management, inventory, payments, and handovers — powered by AI.</p>
-            <div class="nogbase-card__features">
-                <span class="nogbase-card__feature">Broker CRM</span>
-                <span class="nogbase-card__feature">AI Docs</span>
-                <span class="nogbase-card__feature">Payments</span>
-                <span class="nogbase-card__feature">3D Viewer</span>
-                <span class="nogbase-card__feature">WhatsApp API</span>
-                <span class="nogbase-card__feature">Analytics</span>
+            <div class="nogbase-card__header">
+                <img src="assets/nogbase-logo.png" alt="Nogbase" class="nogbase-card__logo">
+                <span class="card__label" style="margin-bottom:0;">Current Venture</span>
             </div>
-            <a href="https://nogbase.ae" target="_blank" rel="noopener" class="nogbase-card__link">
-                Visit nogbase.ae
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
+            <h2 class="nogbase-card__title">The operating system for property developers</h2>
+            <p class="nogbase-card__subtitle">Nogbase is a B2B PropTech SaaS platform that replaces the fragmented tools property developers rely on with a single, intelligent system — covering every stage from lead capture to customer handover.</p>
+
+            <div class="nogbase-card__grid">
+                <!-- The Problem -->
+                <div class="nogbase-card__section">
+                    <div class="nogbase-card__section-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                    </div>
+                    <h3 class="nogbase-card__section-title">The Problem</h3>
+                    <p class="nogbase-card__section-text">Property developers across the UAE manage sales through <strong>disconnected spreadsheets, WhatsApp groups, and siloed CRM systems</strong> that don't talk to each other. Broker relationships live in inboxes, inventory is tracked manually, and payment follow-ups fall through the cracks — leading to <strong>lost leads, revenue leakage, and zero real-time visibility</strong> into sales performance.</p>
+                </div>
+
+                <!-- Our Solution -->
+                <div class="nogbase-card__section">
+                    <div class="nogbase-card__section-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3 class="nogbase-card__section-title">Our Solution</h3>
+                    <p class="nogbase-card__section-text">Nogbase replaces this fragmented stack with a <strong>single, AI-powered platform</strong> purpose-built for real estate developers. From the moment a broker registers interest to the final customer handover, every touchpoint lives in one system — with <strong>intelligent automation handling repetitive workflows</strong>, document generation, payment scheduling, and performance analytics.</p>
+                </div>
+
+                <!-- Broker Management Portal -->
+                <div class="nogbase-card__section nogbase-card__section--broker">
+                    <div class="nogbase-card__section-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4-4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                    </div>
+                    <h3 class="nogbase-card__section-title">Broker Management Portal</h3>
+                    <p class="nogbase-card__section-text">A dedicated <strong>self-service portal</strong> that transforms how developers work with their broker network:</p>
+                    <div class="nogbase-card__broker-features">
+                        <span class="nogbase-card__broker-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Broker registration, KYC verification & RERA compliance
+                        </span>
+                        <span class="nogbase-card__broker-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Real-time inventory access with unit availability & pricing
+                        </span>
+                        <span class="nogbase-card__broker-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            EOI submission & deal tracking from expression to booking
+                        </span>
+                        <span class="nogbase-card__broker-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Automated commission calculations & payout tracking
+                        </span>
+                        <span class="nogbase-card__broker-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Performance dashboards for broker & agency analytics
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nogbase-card__bottom">
+                <div class="nogbase-card__features">
+                    <span class="nogbase-card__feature">Broker Portal</span>
+                    <span class="nogbase-card__feature">Sales CRM</span>
+                    <span class="nogbase-card__feature">AI Docs</span>
+                    <span class="nogbase-card__feature">Payment Collections</span>
+                    <span class="nogbase-card__feature">3D Inventory Viewer</span>
+                    <span class="nogbase-card__feature">WhatsApp API</span>
+                    <span class="nogbase-card__feature">Customer Handovers</span>
+                    <span class="nogbase-card__feature">Analytics</span>
+                </div>
+                <a href="https://nogbase.ae" target="_blank" rel="noopener" class="nogbase-card__link">
+                    Visit nogbase.ae
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
         </article>
 
         <!-- CAREER -->
