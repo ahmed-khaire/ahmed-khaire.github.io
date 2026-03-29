@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr"
+      class="text-[14px] md:text-[15px] lg:text-[16px]">
+
+<head>    <link href="/rappasoft/laravel-livewire-tables/core.min.css" rel="stylesheet" />     <link href="/rappasoft/laravel-livewire-tables/thirdparty.css" rel="stylesheet" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWY7PWDK39"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-FWY7PWDK39');
+    </script>
+
+    
+        <link rel="canonical" href="https://www.uaelogos.ae/login">
+
+            <title>Login | UAE Logos</title>
+        
+
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="csrf-token" content="yIyLYyK5wh3FJziKQRuK7aCffmvMB5cdx0jIj5go">
+
+<meta name="description" content="“شعارات الإمارات” هو مكتبتك الرقمية الشاملة التي تجمع كافة شعارات المؤسسات الحكومية، شبه الحكومية، والخاصة في دولة الإمارات. نسعى لتوفير شعارات عالية الجودة بصيغ متعددة، مدعومة بأدلة إرشادية تضمن التوافق مع الهوية المؤسسية لكل جهة. مع “شعارات الإمارات”، أصبح الوصول إلى الشعارات الرسمية وتوفير الوقت والجهد أسهل من أي وقت مضى.">
+<meta name="keywords" content="شعارات, العلامات التجارية, الهوية البصرية, الإرشادات, الإمارات, دبي, الشارقة, أبوظبي">
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="" />
+
+
+<meta name="title" content="Login | UAE Logos">
+<meta name="author" content="شعارات الإمارات By maximagroup.ae">
+
+
+<!--Favicon Icon-->
+<link rel="icon" type="image/png" href="https://www.uaelogos.ae/assets/favicon/favicon-96x96.png" sizes="96x96"/>
+<link rel="icon" type="image/svg+xml" href="https://www.uaelogos.ae/assets/favicon/favicon.svg"/>
+<link rel="shortcut icon" href="https://www.uaelogos.ae/assets/favicon/favicon.ico"/>
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.uaelogos.ae/assets/favicon/apple-touch-icon.png"/>
+<link rel="manifest" href="https://www.uaelogos.ae/assets/favicon/site.webmanifest"/>
+
+    <!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Kufi+Arabic:wght@100..900&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+<link rel="stylesheet" href="https://www.uaelogos.ae/assets/website/css/custom.css"/>
+
+<link rel="preload" as="style" href="https://www.uaelogos.ae/build/assets/filepond-plugin-file-poster-6rTlvqhf.css" /><link rel="preload" as="style" href="https://www.uaelogos.ae/build/assets/app-Dfp2sz5h.css" /><link rel="preload" as="style" href="https://www.uaelogos.ae/build/assets/app-B1sungCC.css" /><link rel="modulepreload" href="https://www.uaelogos.ae/build/assets/app-C2JCMvQl.js" /><link rel="modulepreload" href="https://www.uaelogos.ae/build/assets/summernote-Be_f3XmD.js" /><link rel="modulepreload" href="https://www.uaelogos.ae/build/assets/bootstrap-T1DpEqax.js" /><link rel="modulepreload" href="https://www.uaelogos.ae/build/assets/filepond-plugin-file-poster.esm-CiCaoChg.js" /><link rel="modulepreload" href="https://www.uaelogos.ae/build/assets/jquery-DkIBlopl.js" /><link rel="stylesheet" href="https://www.uaelogos.ae/build/assets/filepond-plugin-file-poster-6rTlvqhf.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://www.uaelogos.ae/build/assets/app-Dfp2sz5h.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://www.uaelogos.ae/build/assets/app-B1sungCC.css" data-navigate-track="reload" /><script type="module" src="https://www.uaelogos.ae/build/assets/app-C2JCMvQl.js" data-navigate-track="reload"></script>        <script type="text/javascript">
+        function callbackThen(response) {
+            // read Promise object
+            response.json().then(function (data) {
+                console.log(data);
+                if (data.success && data.score > 0.6) {
+                    console.log('valid recpatcha');
+                } else {
+                    document.getElementById('contactUsForm').addEventListener('submit', function (event) {
+                        event.preventDefault();
+                        alert('recpatcha error');
+                    });
+                }
+            });
+        }
+
+        function callbackCatch(error) {
+            console.error('Error:', error)
+        }
+    </script>
+
+
+    <script src="https://www.google.com/recaptcha/api.js?hl=&render=6LfydS4rAAAAALeL3vfFhyNuVao6WMTxxwSeh1F7"></script>
+
+<script src="/rappasoft/laravel-livewire-tables/core.min.js"  ></script> <script src="/rappasoft/laravel-livewire-tables/thirdparty.min.js"  ></script></head>
+
+<body class="rtl:font-kufi ltr:font-inter bg-web-bgd">
+<div class="relative">
+    <div id="page-loader" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+        <img src="https://www.uaelogos.ae/assets/dashboard/images/loader.gif" class="max-w-28" alt="loader"/>
+
+    </div>
+
+
+    <div class="min-h-screen">
+        
+        <nav class="bg-white py-4 px-4 sm:px-8 lg:px-16">
+    <div class="grid grid-cols-5 lg:flex justify-between items-center ">
+        <div class="col-span-5 lg:col-span-2 mb-4 lg:mb-0">
+            <div class="flex justify-between">
+                <a href="https://www.uaelogos.ae"
+                   class="flex items-center justify-center">
+                    <img class="min-w-24" src="https://www.uaelogos.ae/assets/website/images/main-logo-horizontal.svg" alt="Logo"/>
+                </a>
+                
+                <div class="ms-12">
+                    <ul class="flex items-center justify-center w-full gap-2 lg:gap-4">
+                        <li class="relative h-12">
+                            <a href="https://www.uaelogos.ae"
+                               aria-label="Home"
+                               class="w-9 h-9 lg:w-12 lg:h-12 flex items-center p-4 rounded-xl justify-center  bg-white  group">
+                                <span class="scale-[80%] lg:scale-100">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="text-web-inactive">
+    <path d="M20.04 6.82L14.28 2.79C12.71 1.69 10.3 1.75 8.78999 2.92L3.77999 6.83C2.77999 7.61 1.98999 9.21 1.98999 10.47V17.37C1.98999 19.92 4.05999 22 6.60999 22H17.39C19.94 22 22.01 19.93 22.01 17.38V10.6C22.01 9.25 21.14 7.59 20.04 6.82ZM12.75 18C12.75 18.41 12.41 18.75 12 18.75C11.59 18.75 11.25 18.41 11.25 18V15C11.25 14.59 11.59 14.25 12 14.25C12.41 14.25 12.75 14.59 12.75 15V18Z" fill="currentColor"/>
+</svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="relative h-12">
+                            <a href="https://www.uaelogos.ae/guidelines"
+                               aria-label="Guidelines"
+                               class="w-9 h-9 lg:w-12 lg:h-12 flex items-center p-4 rounded-xl justify-center  bg-white  group">
+                                <span class="scale-[80%] lg:scale-100">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="text-web-inactive">
+    <path d="M18.0001 7.16C17.9401 7.15 17.8701 7.15 17.8101 7.16C16.4301 7.11 15.3301 5.98 15.3301 4.58C15.3301 3.15 16.4801 2 17.9101 2C19.3401 2 20.4901 3.16 20.4901 4.58C20.4801 5.98 19.3801 7.11 18.0001 7.16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M16.9702 14.44C18.3402 14.67 19.8502 14.43 20.9102 13.72C22.3202 12.78 22.3202 11.24 20.9102 10.3C19.8402 9.59001 18.3102 9.35 16.9402 9.59" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5.96998 7.16C6.02998 7.15 6.09998 7.15 6.15998 7.16C7.53998 7.11 8.63998 5.98 8.63998 4.58C8.63998 3.15 7.48998 2 6.05998 2C4.62998 2 3.47998 3.16 3.47998 4.58C3.48998 5.98 4.58998 7.11 5.96998 7.16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6.99994 14.44C5.62994 14.67 4.11994 14.43 3.05994 13.72C1.64994 12.78 1.64994 11.24 3.05994 10.3C4.12994 9.59001 5.65994 9.35 7.02994 9.59" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12.0001 14.63C11.9401 14.62 11.8701 14.62 11.8101 14.63C10.4301 14.58 9.33008 13.45 9.33008 12.05C9.33008 10.62 10.4801 9.47 11.9101 9.47C13.3401 9.47 14.4901 10.63 14.4901 12.05C14.4801 13.45 13.3801 14.59 12.0001 14.63Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.08997 17.78C7.67997 18.72 7.67997 20.26 9.08997 21.2C10.69 22.27 13.31 22.27 14.91 21.2C16.32 20.26 16.32 18.72 14.91 17.78C13.32 16.72 10.69 16.72 9.08997 17.78Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                </span>
+                            </a>
+                        </li>
+                        
+                        <li class="relative h-12">
+                            <a href="https://www.uaelogos.ae/categories"
+                               aria-label="Categories"
+                               class="w-9 h-9 lg:w-12 lg:h-12 flex items-center p-4 rounded-xl justify-center  bg-white  group">
+                            <span class="scale-[80%] lg:scale-100">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-web-inactive">
+    <g id="vuesax/linear/category">
+        <g id="category">
+            <path id="Vector" d="M5 10.5H7C9 10.5 10 9.5 10 7.5V5.5C10 3.5 9 2.5 7 2.5H5C3 2.5 2 3.5 2 5.5V7.5C2 9.5 3 10.5 5 10.5Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_2" d="M17 10.5H19C21 10.5 22 9.5 22 7.5V5.5C22 3.5 21 2.5 19 2.5H17C15 2.5 14 3.5 14 5.5V7.5C14 9.5 15 10.5 17 10.5Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_3" d="M17 22.5H19C21 22.5 22 21.5 22 19.5V17.5C22 15.5 21 14.5 19 14.5H17C15 14.5 14 15.5 14 17.5V19.5C14 21.5 15 22.5 17 22.5Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_4" d="M5 22.5H7C9 22.5 10 21.5 10 19.5V17.5C10 15.5 9 14.5 7 14.5H5C3 14.5 2 15.5 2 17.5V19.5C2 21.5 3 22.5 5 22.5Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+    </g>
+</svg>
+                            </span>
+                            </a>
+                        </li>
+                        
+                        <li class="relative h-12">
+                            <a href="https://www.uaelogos.ae/articles"
+                               aria-label="Articles"
+                               class="w-9 h-9 lg:w-12 lg:h-12 flex items-center p-4 rounded-xl justify-center  bg-white  group">
+                        <span class="scale-[80%] lg:scale-100">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-web-inactive">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.76678 2.93896H12.8108C13.9218 2.93896 14.9953 3.34102 15.8331 4.07086L20.5594 8.18858C21.673 9.15881 22.3123 10.5635 22.3123 12.0406V12.1922C22.3123 12.6303 21.9571 12.9855 21.519 12.9855C21.0809 12.9855 20.7257 12.6303 20.7257 12.1922V12.0406C20.7257 11.739 20.6871 11.4418 20.6127 11.1554L19.2093 11.1554C18.0111 11.1554 17.032 11.1554 16.259 11.0515C15.4509 10.9429 14.7504 10.7078 14.1912 10.1486L14.1911 10.1485C13.632 9.58931 13.3969 8.88875 13.2883 8.08071C13.1843 7.30767 13.1843 6.32851 13.1844 5.1303V4.54878C13.061 4.53337 12.9363 4.52554 12.8108 4.52554H7.7712C6.61578 4.53201 5.79662 4.56208 5.17483 4.6763C4.57532 4.78642 4.22832 4.96325 3.97083 5.22075C3.71333 5.47825 3.53651 5.82525 3.42639 6.42474C3.31211 7.0469 3.28206 7.86667 3.27562 9.02321C3.27318 9.46132 2.91605 9.81451 2.47795 9.81207C2.03985 9.80963 1.68667 9.45249 1.68911 9.01437C1.69548 7.87049 1.72286 6.91712 1.86596 6.13808C2.01323 5.33636 2.29378 4.65408 2.84897 4.09887C3.40419 3.54364 4.08648 3.2631 4.8882 3.11583C5.66726 2.97272 6.62064 2.94535 7.76457 2.93898L7.76678 2.93896ZM14.7709 5.2499C14.7713 6.42398 14.7767 7.24517 14.8606 7.86931C14.9456 8.50143 15.0978 8.81139 15.313 9.02668C15.5284 9.24197 15.8383 9.39409 16.4704 9.47907C17.1253 9.56712 17.9972 9.56881 19.2661 9.56881H19.7128C19.6502 9.50527 19.585 9.44389 19.5172 9.38485L14.7909 5.26713C14.7843 5.26136 14.7776 5.25561 14.7709 5.2499ZM5.91803 11.24C5.91803 10.8019 6.27319 10.4467 6.7113 10.4467H11.9998C12.4379 10.4467 12.793 10.8019 12.793 11.24C12.793 11.6781 12.4379 12.0333 11.9998 12.0333H6.7113C6.27319 12.0333 5.91803 11.6781 5.91803 11.24ZM2.48053 12.4566C2.91864 12.4566 3.2738 12.8118 3.2738 13.2499V16.423C3.2738 17.9413 3.27548 19.0002 3.38289 19.7992C3.48724 20.5753 3.6781 20.9863 3.9708 21.279L3.97083 21.279C4.26356 21.5718 4.67455 21.7626 5.45065 21.867C6.24958 21.9744 7.30845 21.9761 8.82668 21.9761H15.1728C16.691 21.9761 17.7499 21.9744 18.5488 21.867C19.3249 21.7626 19.7359 21.5718 20.0287 21.279L20.0287 21.279C20.3214 20.9863 20.5123 20.5753 20.6166 19.7992C20.724 19.0002 20.7257 17.9413 20.7257 16.423C20.7257 15.9849 21.0809 15.6298 21.519 15.6298C21.9571 15.6298 22.3123 15.9849 22.3123 16.423V16.4811C22.3123 17.9276 22.3123 19.0936 22.189 20.0106C22.061 20.9626 21.7872 21.7643 21.1505 22.4009C20.5139 23.0376 19.7123 23.3114 18.7602 23.4394C17.8433 23.5627 16.6774 23.5627 15.2309 23.5627H8.76863C7.32215 23.5627 6.15623 23.5627 5.23925 23.4394C4.28721 23.3114 3.48561 23.0376 2.84897 22.4009C2.21232 21.7643 1.9385 20.9626 1.8105 20.0106C1.68722 19.0936 1.68723 17.9276 1.68726 16.4811L1.68726 13.2499C1.68726 12.8118 2.04242 12.4566 2.48053 12.4566ZM6.97572 14.942C6.97572 14.5039 7.33088 14.1487 7.76899 14.1487H8.82668C9.26479 14.1487 9.61995 14.5039 9.61995 14.942C9.61995 15.3801 9.26479 15.7353 8.82668 15.7353H7.76899C7.33088 15.7353 6.97572 15.3801 6.97572 14.942ZM11.2065 14.942C11.2065 14.5039 11.5616 14.1487 11.9998 14.1487H16.2305C16.6686 14.1487 17.0238 14.5039 17.0238 14.942C17.0238 15.3801 16.6686 15.7353 16.2305 15.7353H11.9998C11.5616 15.7353 11.2065 15.3801 11.2065 14.942ZM8.03341 18.644C8.03341 18.2059 8.38857 17.8508 8.82668 17.8508H15.1728C15.6109 17.8508 15.9661 18.2059 15.9661 18.644C15.9661 19.0822 15.6109 19.4373 15.1728 19.4373H8.82668C8.38857 19.4373 8.03341 19.0822 8.03341 18.644Z" fill="currentColor"/>
+</svg>
+                        </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-span-5 lg:col-span-4 lg:px-7 xl:px-28 grow flex justify-between items-center">
+            <form action="https://www.uaelogos.ae/search"
+                  class="flex items-center w-full justify-between me-2 relative self-stretch bg-web-bgd-input
+                   rounded-xl border-0"
+                  method="GET">
+
+                <span class="ps-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none" class="text-web-placeholder">
+    <path d="M8.16671 14C11.6645 14 14.5 11.1644 14.5 7.66665C14.5 4.16884 11.6645 1.33331 8.16671 1.33331C4.6689 1.33331 1.83337 4.16884 1.83337 7.66665C1.83337 11.1644 4.6689 14 8.16671 14Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M15.1667 14.6666L13.8334 13.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </span>
+                <input
+                    type="text"
+                    class="w-full grow h-full ps-2 py-0 pe-4 border-0 bg-transparent
+                    active:border-0 hover:border-0
+                    placeholder-web-inactive
+                    focus:!border-0 focus:!outline-0 focus:!shadow-none focus:!ring-0"
+                    placeholder="Search..."
+                    name="filter[search]"
+                    value=""
+                >
+                <div class="p-2">
+                    <button type="submit" class="flex justify-center items-center h-full p-2
+                     bg-web-primary rounded-xl border-0 hover:bg-web-primary-dark" aria-label="search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 17 16" fill="none" class="text-white">
+    <path d="M8.16671 14C11.6645 14 14.5 11.1644 14.5 7.66665C14.5 4.16884 11.6645 1.33331 8.16671 1.33331C4.6689 1.33331 1.83337 4.16884 1.83337 7.66665C1.83337 11.1644 4.6689 14 8.16671 14Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M15.1667 14.6666L13.8334 13.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                    </button>
+                </div>
+
+            </form>
+            <button class="flex justify-center items-center h-full p-4 bg-web-secondary
+                            hover:bg-web-bgd rounded-xl" id="filterButton" data-dropdown-toggle="filterMenu"
+                    aria-label="Filter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none" class="text-web-primary">
+    <path d="M18.8334 5.41669H13.8334" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5.49996 5.41669H2.16663" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M8.83329 8.33333C10.4441 8.33333 11.75 7.0275 11.75 5.41667C11.75 3.80584 10.4441 2.5 8.83329 2.5C7.22246 2.5 5.91663 3.80584 5.91663 5.41667C5.91663 7.0275 7.22246 8.33333 8.83329 8.33333Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18.8333 14.5833H15.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M7.16663 14.5833H2.16663" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12.1667 17.5C13.7775 17.5 15.0833 16.1942 15.0833 14.5834C15.0833 12.9725 13.7775 11.6667 12.1667 11.6667C10.5558 11.6667 9.25 12.9725 9.25 14.5834C9.25 16.1942 10.5558 17.5 12.1667 17.5Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+            </button>
+            <!-- Dropdown menu -->
+            <div id="filterMenu" class="z-20 hidden w-64 bg-white rounded-2xl shadow dark:bg-gray-700 p-4">
+                <form action="https://www.uaelogos.ae/search" method="GET">
+                    <ul>
+                        <li class="mb-4">
+                            <span class="mb-2 block tet-sm text-web-title-section">Type</span>
+                            <ul class="space-y-1 text-sm text-gray-700 dark:text-gray-200"
+                                aria-labelledby="dropdownBgHoverButton">
+                                <li class="mb-0.5">
+
+                                    <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                        <input id="category-item-logo" type="checkbox"
+                                               name="type[]"
+                                               value="logo"
+                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                        <label for="category-item-logo"
+                                               class="w-full ms-2 text-sm text-web-title-section rounded">Logo</label>
+                                    </div>
+                                </li>
+                                <li class="mb-0.5">
+                                    <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                        <input id="category-item-guideline" type="checkbox"
+                                               name="type[]"
+                                               value="guideline"
+                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                        <label for="category-item-guideline"
+                                               class="w-full ms-2 text-sm text-web-title-section rounded">Guideline</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                                                    <li class="mb-4">
+                                <span class="mb-2 block tet-sm text-web-title-section">Sector</span>
+                                <ul class="space-y-1 text-sm text-gray-700 dark:text-gray-200"
+                                    aria-labelledby="dropdownBgHoverButton">
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-1" type="checkbox"
+                                                       name="filter[category_code][sector][]"
+                                                       value="government-institutions-logos"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-1"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Government Institutions Logos</label>
+                                            </div>
+                                        </li>
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-2" type="checkbox"
+                                                       name="filter[category_code][sector][]"
+                                                       value="semi-government-institutions-logos"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-2"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Semi Government Institutions Logos</label>
+                                            </div>
+                                        </li>
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-3" type="checkbox"
+                                                       name="filter[category_code][sector][]"
+                                                       value="private-companies-logos"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-3"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Private Companies Logos</label>
+                                            </div>
+                                        </li>
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-13" type="checkbox"
+                                                       name="filter[category_code][sector][]"
+                                                       value="banks-logos"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-13"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Banks Logos</label>
+                                            </div>
+                                        </li>
+                                                                    </ul>
+                            </li>
+                                                    <li class="mb-4">
+                                <span class="mb-2 block tet-sm text-web-title-section">Emirates</span>
+                                <ul class="space-y-1 text-sm text-gray-700 dark:text-gray-200"
+                                    aria-labelledby="dropdownBgHoverButton">
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-4" type="checkbox"
+                                                       name="filter[category_code][emirate][]"
+                                                       value="AUH"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-4"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Abu Dhabi</label>
+                                            </div>
+                                        </li>
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-5" type="checkbox"
+                                                       name="filter[category_code][emirate][]"
+                                                       value="DXB"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-5"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Dubai</label>
+                                            </div>
+                                        </li>
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-6" type="checkbox"
+                                                       name="filter[category_code][emirate][]"
+                                                       value="SHJ"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-6"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Sharjah</label>
+                                            </div>
+                                        </li>
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-7" type="checkbox"
+                                                       name="filter[category_code][emirate][]"
+                                                       value="AJM"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-7"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Ajman</label>
+                                            </div>
+                                        </li>
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-8" type="checkbox"
+                                                       name="filter[category_code][emirate][]"
+                                                       value="UAQ"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-8"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Umm Al Quwain</label>
+                                            </div>
+                                        </li>
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-9" type="checkbox"
+                                                       name="filter[category_code][emirate][]"
+                                                       value="RAK"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-9"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Ras Al Khaimah</label>
+                                            </div>
+                                        </li>
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-10" type="checkbox"
+                                                       name="filter[category_code][emirate][]"
+                                                       value="FUJ"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-10"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Fujairah</label>
+                                            </div>
+                                        </li>
+                                                                            <li class="mb-0.5">
+                                            <div class="py-1 flex items-center rounded hover:bg-gray-100">
+                                                <input id="category-item-12" type="checkbox"
+                                                       name="filter[category_code][emirate][]"
+                                                       value="ministries-&amp;-federal-authorities"
+                                                                                                              class="w-4 h-4 text-web-primary bg-gray-100 border-gray-300 rounded-[50%] focus:ring-web-primary">
+                                                <label for="category-item-12"
+                                                       class="w-full ms-2 text-sm text-web-title-section rounded">Ministries &amp; Federal Authorities</label>
+                                            </div>
+                                        </li>
+                                                                    </ul>
+                            </li>
+                        
+                    </ul>
+                    <div class="flex justify-between mt-6">
+                        <a href="https://www.uaelogos.ae"
+                           class="text-sm px-4 py-3 hover:bg-web-bgd text-web-primary border border-web-primary rounded-xl me-2">
+                            Clear                        </a>
+                        <button type="submit"
+                                class="grow text-sm px-2 py-3 text-white bg-web-primary hover:bg-web-primary-dark border border-web-primary rounded-xl">
+                            Apply Filters                        </button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="col-span-5 flex items-center justify-center mt-6 lg:mt-0">
+                            <div class="flex justify-center items-center me-4">
+    <div class="bg-web-bgd flex p-1 rounded-[50px]">
+                    <a href="https://www.uaelogos.ae/en/login"
+               class="inline-flex _lang_btn text-xs text-center self-center py-2 px-3 bg-bgd rounded-[50px] cursor-pointer hover:opacity-75  active ">
+                English
+            </a>
+                    <a href="https://www.uaelogos.ae/ar/login"
+               class="inline-flex _lang_btn text-xs text-center self-center py-2 px-3 bg-bgd rounded-[50px] cursor-pointer hover:opacity-75 ">
+                العربية
+            </a>
+            </div>
+</div>
+                        <a                                   href="https://www.uaelogos.ae/login"
+                              class="whitespace-nowrap  text-center text-xs w-1/2 lg:w-auto px-2 2xl:px-4 py-4 hover:bg-web-bgd text-web-primary
+            border border-web-primary rounded-xl me-2">
+                Upload Logo            </a>
+                            <a href="https://www.uaelogos.ae/login"
+                   class="whitespace-nowrap text-xs text-center w-1/2 lg:w-auto px-2 lg:px-4 py-4 text-white bg-web-primary hover:bg-web-primary-dark border border-web-primary rounded-xl">
+                    Login                </a>
+                                </div>
+    </div>
+</nav>
+
+
+
+
+                <!-- Page Content -->
+        <main class="mx-4 sm:mx-8 lg:mx-16 lg:pb-20 pb-8">
+                <div class="bg-white shadow-md p-14 mt-8 rounded-[1.875rem]  mx-auto md:grid md:grid-cols-2 md:gap-x-12">
+        <div class="relative p-4 w-full max-w-lg max-h-full">
+
+            <div class="flex flex-col items-center justify-center gap-8">
+                <a href="/">
+                    <img class="w-96 !h-32 fill-current text-gray me-2"
+                         src="https://www.uaelogos.ae/assets/website/images/main-logo-horizontal.svg" alt="logo" title="logo"
+                    >
+                </a>
+                <h3 class="text-5xl font-semibold text-gray-900">
+                    Sign in                </h3>
+            </div>
+            <div class="p-4 md:p-5">
+                <form action="https://www.uaelogos.ae/login" method="post" onsubmit="showLoader(this)">
+                    <input type="hidden" name="_token" value="yIyLYyK5wh3FJziKQRuK7aCffmvMB5cdx0jIj5go" autocomplete="off">                    <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response-69c99c421b6b3"><script>
+  grecaptcha.ready(function() {
+      grecaptcha.execute('6LfydS4rAAAAALeL3vfFhyNuVao6WMTxxwSeh1F7', {action: 'login'}).then(function(token) {
+         document.getElementById('g-recaptcha-response-69c99c421b6b3').value = token;
+      });
+  });
+  </script>
+
+                    <div class="my-6">
+    <div class="relative">
+        <input 
+            class="bg-transparent border-2 border-web-divider ps-12
+                             text-gray-900 text-sm rounded-xl focus:ring-web-primary focus:border-web-primary
+                             block w-full p-4 placeholder-web-placeholder" name="email" type="email" placeholder="Enter your email" required="required"
+
+        />
+        <span class="absolute top-1/2 start-4 -translate-y-1/2">
+            <img src="https://www.uaelogos.ae/assets/website/images/email.svg" alt="" class="w-6 h-6">
+        </span>
+    </div>
+    </div>
+
+                                        <div class="my-6">
+    <div class="relative">
+        <input 
+            class="bg-transparent border-2 border-web-divider ps-12
+                             text-gray-900 text-sm rounded-xl focus:ring-web-primary focus:border-web-primary
+                             block w-full p-4 placeholder-web-placeholder" name="password" type="password" placeholder="Enter your password" required="required"
+
+        />
+        <span class="absolute top-1/2 start-4 -translate-y-1/2">
+            <img src="https://www.uaelogos.ae/assets/website/images/lock.svg" alt="" class="w-6 h-6">
+        </span>
+    </div>
+            <div class="mt-2 flex items-center justify-start gap-2">
+            <img src="https://www.uaelogos.ae/assets/website/images/hint.svg" alt="" class="w-4 h-4">
+            <span class="text-xs text-web-paragraph">Minimum 6 characters, at least one number, and special character  </span>
+        </div>
+    </div>
+
+
+
+                    <div class="flex justify-between">
+                        <div class="flex items-start">
+                            <div class="flex items-center h-5">
+                                <input id="remember" type="checkbox" name="remember"
+                                       checked
+                                       class="w-4 h-4 border border-web-divider rounded bg-white focus:ring-2 focus:ring-web-primary text-web-primary"/>
+                            </div>
+                            <label for="remember"
+                                   class="ms-2 text-sm text-web-paragraph">Remember me</label>
+                        </div>
+                        <a href="https://www.uaelogos.ae/forget-password"
+                           class="text-base text-web-primary hover:underline">Forgot Password?</a>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="w-full text-white bg-web-primary hover:bg-web-primary-dark focus:outline-none rounded-xl text-base px-2 py-4 mt-8 text-center font-semibold relative"
+                    >
+                        <span id="button-text">Login</span>
+                        <span id="spinner" class="hidden  flex items-center justify-center">
+                            <svg class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                 viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
+                                        stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor"
+                                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                        </span>
+                    </button>
+                </form>
+
+                <!-- Divider with 'or' -->
+                <div class="flex items-center w-full my-6">
+                    <hr class="w-full border-web-divider">
+                    <span class="px-5 text-web-title-section">or</span>
+                    <hr class="w-full border-web-divider">
+                </div>
+
+                <a href="https://www.uaelogos.ae/auth/redirect"
+                   class="flex my-4 items-center justify-center gap-4 w-full text-web-primary   bg-web-secondary hover:bg-web-bgd-input   focus:outline-none rounded-xl text-base px-2 py-4 text-center font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-web-primary">
+    <path d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z" fill="currentColor"/>
+    <g class="text-white">
+        <path d="M12.0001 8.81067C12.9765 8.81067 13.6352 9.23245 14.0107 9.58489L15.4783 8.152C14.577 7.31423 13.4041 6.8 12.0001 6.8C9.96629 6.8 8.20985 7.96711 7.35474 9.66578L9.03607 10.9716C9.45785 9.71778 10.625 8.81067 12.0001 8.81067Z" fill="currentColor"/>
+        <path d="M16.992 12.1156C16.992 11.688 16.9573 11.376 16.8822 11.0524H12V12.9822H14.8658C14.808 13.4618 14.496 14.184 13.8027 14.6693L15.4436 15.9404C16.4258 15.0333 16.992 13.6987 16.992 12.1156Z" fill="currentColor"/>
+        <path d="M9.04183 13.0284C8.93205 12.7049 8.86849 12.3582 8.86849 12C8.86849 11.6418 8.93205 11.2951 9.03605 10.9716L7.35472 9.66578C7.00227 10.3707 6.80005 11.1622 6.80005 12C6.80005 12.8378 7.00227 13.6293 7.35472 14.3342L9.04183 13.0284Z" fill="currentColor"/>
+        <path d="M12.0002 17.2C13.4042 17.2 14.5828 16.7378 15.4437 15.9404L13.8028 14.6693C13.3637 14.9756 12.7744 15.1893 12.0002 15.1893C10.625 15.1893 9.45793 14.2822 9.04193 13.0285L7.3606 14.3342C8.21571 16.0329 9.96637 17.2 12.0002 17.2Z" fill="currentColor"/>
+    </g>
+</svg>
+                    Continue with Google                </a>
+
+
+                <div class="text-sm my-8 font-medium text-web-title-section text-center">
+                    Not registered?                    <a
+                        href="https://www.uaelogos.ae/signup"
+                        class="text-web-primary hover:underline">Create Account                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="hidden md:block">
+            <img src="https://www.uaelogos.ae/assets/website/images/contact-us.jpg" class="rounded-3xl h-full w-full"
+                 alt="contact us image">
+        </div>
+    </div>
+            <footer class="bg-white shadow-md py-8 px-14 mt-8 rounded-[1.875rem] lg:mb-8 mb-4">
+    <div class="grid grid-cols-1 md:grid-cols-6 gap-4 lg:gap-10 text-center md:text-start">
+        <!-- Logo and Description -->
+        <div class="col-span-2 ">
+            <img src="https://www.uaelogos.ae/assets/website/images/main-logo-horizontal.svg" alt="UAE Logos"
+                 class="h-20 m-auto md:mx-0 mb-8 mb-4/">
+        </div>
+
+        <!-- Main Links -->
+        <div class="col-span-2">
+            <div class="flex justify-around">
+                <div class="mb-4 lg:mb-0">
+                    
+                    <ul class="space-y-2">
+                        <li><a href="https://www.uaelogos.ae"
+                               class="text-web-paragraph hover:text-gray-800 mb-2">Home</a></li>
+                        <li><a href="https://www.uaelogos.ae/contact-us" class="text-web-paragraph hover:text-gray-800"
+                               mb-2>Contact Us</a>
+                        </li>
+                        <li><a href="https://www.uaelogos.ae/about"
+                               class="text-web-paragraph hover:text-gray-800 mb-2">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="https://www.uaelogos.ae/privacy-policy"
+                               class="text-web-paragraph hover:text-gray-800">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="https://www.uaelogos.ae/faqs"
+                               class="text-web-paragraph hover:text-gray-800 mb-2">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="col-span-2">
+            <h3 class="text-web-title-card font-semibold text-base mb-4">Social Media</h3>
+            <div class="flex justify-center md:justify-start gap-4">
+
+                
+                                            <a href="https://x.com/uae_logos"
+                           target="_blank"
+                           class="text-black bg-web-primary hover:bg-web-primary-dark p-2 md:p-3 rounded-full block">
+                            <img src="https://www.uaelogos.ae/assets/website/images/x.svg" alt="instagram icon">
+                        </a>
+                                    
+                                            <a href="mailto:info@uaelogos.ae"
+                           target="_blank"
+                           class="text-black bg-web-primary hover:bg-web-primary-dark p-2 md:p-3 rounded-full block">
+                            <img src="https://www.uaelogos.ae/assets/website/images/sms.svg" alt="instagram icon">
+                        </a>
+                                    
+                                            <a href="https://www.tiktok.com/@uae_logos"
+                           target="_blank"
+                           class="text-black bg-web-primary hover:bg-web-primary-dark p-2 md:p-3 rounded-full block">
+                            <img src="https://www.uaelogos.ae/assets/website/images/tiktok.svg" alt="instagram icon">
+                        </a>
+                                    
+                                            <a href="https://www.facebook.com/uaelogos.ae"
+                           target="_blank"
+                           class="text-black bg-web-primary hover:bg-web-primary-dark p-2 md:p-3 rounded-full block">
+                            <img src="https://www.uaelogos.ae/assets/website/images/facebook.svg" alt="instagram icon">
+                        </a>
+                                    
+                                            <a href="https://www.linkedin.com/company/uaelogos/"
+                           target="_blank"
+                           class="text-black bg-web-primary hover:bg-web-primary-dark p-2 md:p-3 rounded-full block">
+                            <img src="https://www.uaelogos.ae/assets/website/images/linkedin.svg" alt="instagram icon">
+                        </a>
+                                    
+                                            <a href="https://www.instagram.com/uae_logos"
+                           target="_blank"
+                           class="text-black bg-web-primary hover:bg-web-primary-dark p-2 md:p-3 rounded-full block">
+                            <img src="https://www.uaelogos.ae/assets/website/images/instagram.svg" alt="instagram icon">
+                        </a>
+                                    
+            </div>
+        </div>
+    </div>
+    <div class="mt-4 lg:mt-2">
+        <p class="text-web-paragraph text-sm">
+            “UAE Logos” is your comprehensive digital library, offering a curated collection of high-quality logos from government, semi-government, and private entities across the UAE. We provide logos in multiple formats, supported by detailed guidelines to ensure alignment with each entity’s brand identity. With “UAE Logos,” accessing official logos has never been easier, saving you both time and effort.
+        </p>
+    </div>
+
+    <div class="mt-8 border-t border-web-divider pt-4 text-center text-web-paragraph text-sm">
+        <p>All logos and trademarks displayed on the UAE Logos platform are the exclusive property of their respective government and private entities, and are provided for personal and reference use only.</p><p>All rights reserved © - 2025 - Developed by <a href="https://maximagroup.ae" target="_blank">MaximaGroup</a></p>
+
+    </div>
+</footer>
+
+        </main>
+    </div>
+
+    <!-- Main modal -->
+<div id="verify-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-lg max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow">
+            <!-- Modal body -->
+            <div class="p-5 md:p-7 text-center">
+                <h6 class="capitalize text-2xl mb-8 text-web-title-card font-semibold">Please verify your email</h6>
+                <p class="mb-8 text-base text-web-paragraph">We have sent an email to youremail@email.com for verification</p>
+                <div class="flex justify-between items-center gap-4">
+                    <button class="w-1/2 text-sm px-8 py-4 text-white bg-web-primary hover:bg-web-primary-dark border
+                    border-web-primary rounded-xl">
+                        Send again
+                    </button>
+                    <button class="w-1/2 text-sm px-8 py-4 bg-web-bgd-input hover:bg-web-secondary text-web-title-card rounded-xl me-2">
+                        Got it
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Main modal -->
+<div id="verified-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-lg max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow">
+            <!-- Modal body -->
+            <div class="p-5 md:p-7 text-center">
+                <h6 class="capitalize text-2xl mb-8 text-web-title-card font-semibold">
+                    Thanks For Verifying!
+                </h6>
+                <p class="mb-8 text-base text-web-paragraph">
+                    Thank you for verifying your email address, You may now proceed and upload your logo
+                </p>
+                <div class="flex justify-between items-center gap-4">
+                    <button class="w-full text-sm px-8 py-4 text-white bg-web-primary hover:bg-web-primary-dark border
+                    border-web-primary rounded-xl">
+                        Upload your Logo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://www.uaelogos.ae/assets/website/js/custom.js"></script>
+
+
+
+</body>
+
+</html>

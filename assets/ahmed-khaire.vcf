@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Khaire;Ahmed;;;
+FN:Ahmed Khaire
+ORG:Nogbase
+TITLE:Founder & CEO
+TEL;TYPE=CELL:+971544667767
+EMAIL;TYPE=WORK:ahmed@nogbase.ae
+URL;TYPE=WORK:https://nogbase.ae
+URL;TYPE=HOME:https://ahmedkhaire.com
+PHOTO;VALUE=uri:https://ahmedkhaire.com/assets/profile.jpg
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/ahmed-khaire/
+NOTE:Founder & CEO of Nogbase — PropTech SaaS platform for real estate developers in Dubai\, UAE. Former Software Solutions Architect at PwC.
+ADR;TYPE=WORK:;;Dubai;;;Dubai;UAE
+END:VCARD
