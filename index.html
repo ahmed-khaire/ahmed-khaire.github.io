@@ -46,7 +46,7 @@
         },
         "url": "https://ahmedkhaire.com",
         "image": "https://ahmedkhaire.com/assets/profile.jpg",
-        "sameAs": ["https://www.linkedin.com/in/ahmed-khaire/", "https://x.com/ahmedkhairepro", "https://nogbase.ae", "https://github.com/ahmed-khaire"],
+        "sameAs": ["https://www.linkedin.com/in/ahmed-khaire/", "https://x.com/ahmedkhairepro", "https://scholar.google.co.uk/citations?user=ZSYdbQgAAAAJ", "https://nogbase.ae", "https://github.com/ahmed-khaire"],
         "nationality": { "@type": "Country", "name": "UAE" },
         "address": { "@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE" },
         "alumniOf": { "@type": "CollegeOrUniversity", "name": "Cairo University" },
@@ -401,6 +401,16 @@
         }
         .contact-card__detail:hover { color:var(--accent); }
         .contact-card__detail svg { width:12px; height:12px; flex-shrink:0; color:var(--text-3); }
+        .contact-card__social {
+            display:flex; justify-content:center; gap:8px; margin-top:14px;
+        }
+        .contact-card__social a {
+            display:flex; align-items:center; justify-content:center;
+            width:32px; height:32px; border-radius:var(--r-sm);
+            background:var(--accent-sub); color:var(--text-3); transition:all 0.2s;
+        }
+        .contact-card__social a:hover { background:var(--accent); color:#fff; transform:translateY(-1px); }
+        .contact-card__social svg { width:15px; height:15px; }
 
         /* ======================== PROJECTS CARD ======================== */
         .projects-card {
@@ -514,6 +524,19 @@
         /* ======================== A11Y ======================== */
         .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
         @media (prefers-reduced-motion:reduce) { .card { animation:none; } *, *::before, *::after { transition-duration:0.01ms!important; } }
+
+        /* ======================== WHATSAPP FLOAT ======================== */
+        .wa-float {
+            position:fixed; right:24px; bottom:24px; z-index:90;
+            width:56px; height:56px; border-radius:50%;
+            display:flex; align-items:center; justify-content:center;
+            background:#25D366; color:#fff;
+            box-shadow:var(--shadow-up);
+            transition:transform 0.25s ease, box-shadow 0.25s ease;
+        }
+        .wa-float:hover { transform:translateY(-3px) scale(1.05); box-shadow:0 6px 16px rgba(0,0,0,0.18), 0 16px 40px rgba(37,211,102,0.28); }
+        .wa-float svg { width:30px; height:30px; }
+        @media (max-width:768px) { .wa-float { right:16px; bottom:16px; width:52px; height:52px; } .wa-float svg { width:28px; height:28px; } }
     </style>
 </head>
 <body>
@@ -562,6 +585,9 @@
                     </a>
                     <a href="https://x.com/ahmedkhairepro" target="_blank" rel="noopener" class="hero-card__link" aria-label="X (Twitter)">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="https://scholar.google.co.uk/citations?user=ZSYdbQgAAAAJ" target="_blank" rel="noopener" class="hero-card__link" aria-label="Google Scholar">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
                     </a>
                     <a href="mailto:ahmed@nogbase.ae" class="hero-card__link" aria-label="Email">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"/></svg>
@@ -863,6 +889,20 @@
                     +971 54 466 7767
                 </a>
             </div>
+            <div class="contact-card__social">
+                <a href="https://www.linkedin.com/in/ahmed-khaire/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+                </a>
+                <a href="https://x.com/ahmedkhairepro" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                <a href="https://scholar.google.co.uk/citations?user=ZSYdbQgAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+                </a>
+                <a href="https://wa.me/971544667767" target="_blank" rel="noopener" aria-label="WhatsApp">
+                    <svg viewBox="0 0 448 512" fill="currentColor"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                </a>
+            </div>
         </article>
 
         <!-- CLIENTS & PROJECTS -->
@@ -898,6 +938,11 @@
         </article>
 
     </main>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/971544667767" target="_blank" rel="noopener noreferrer" class="wa-float" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+    </a>
 
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(a => {
