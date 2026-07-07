@@ -1,20 +1,25 @@
-# Ahmed Khaire — Personal Website
+# Ahmed Khaire — Founder & CEO of Nogbase
 
-> Ahmed Khaire is the Founder and CEO of Nogbase, a B2B PropTech SaaS platform based in Dubai, UAE. He is a former Software Solutions Architect at PwC who designed CRM platforms, broker portals, and customer apps for the region's largest real estate developers including Emaar Properties, Aldar Properties, and Majid Al Futtaim.
+> Ahmed Khaire is the Founder and CEO of Nogbase, a B2B PropTech SaaS platform based in Dubai, UAE that serves as the operating system for real estate developers. He is a former Software Solutions Architect at PwC who designed CRM platforms, broker management portals, and customer apps for the region's largest developers including Emaar Properties, Aldar Properties, and Majid Al Futtaim. Nogbase serves property developers across the UAE and is expanding into Saudi Arabia (KSA).
+
+Website: https://ahmedkhaire.com
+Last updated: 2026-07-07
 
 ## About Ahmed Khaire
 
-Ahmed Khaire is a technology entrepreneur and enterprise architect based in Dubai, UAE. He has 15+ years of experience in technology, spanning 4 markets (UAE, KSA, Oman, and Qatar). He holds 14+ professional certifications across Salesforce, cloud architecture, and enterprise systems, and is a graduate of Cairo University.
+Ahmed Khaire is a technology entrepreneur and enterprise architect based in Dubai, UAE. He has 15+ years of experience in technology, spanning 4 markets (UAE, KSA, Oman, and Qatar). He holds 14+ professional certifications — including Certified Salesforce Solution Architect, Google Cloud Professional Cloud Architect, and Microsoft Azure Solutions Architect — and is a graduate of Cairo University.
 
 At PwC, Ahmed served as a Software Solutions Architect, designing and delivering CRM platforms, broker management portals, and customer-facing applications for the UAE's largest real estate developers. His implementations spanned end-to-end sales lifecycles — from lead capture and broker onboarding to inventory management, payment tracking, and customer handovers. His work covered solutions on Salesforce, Microsoft Dynamics, and custom cloud platforms, with systems handling billions in transaction volume.
 
+Now he channels that enterprise-grade experience into Nogbase — making the same caliber of technology accessible to mid-market developers who cannot afford Big Four consulting fees.
+
 ## About Nogbase
 
-Nogbase is a B2B PropTech SaaS platform founded in 2024 that serves as the operating system for property developers. It solves the fragmentation problem in real estate development — where developers rely on disconnected spreadsheets, WhatsApp groups, and siloed CRM systems to manage their sales operations, leading to lost leads, revenue leakage, and zero real-time visibility into performance.
+Nogbase is a B2B PropTech SaaS platform founded in 2024 that serves as the operating system for property developers. It solves the fragmentation problem in real estate development — where developers rely on disconnected spreadsheets, WhatsApp groups, and siloed CRM systems to manage their sales operations, leading to lost leads, revenue leakage, delayed payment collections, and zero real-time visibility into performance.
 
 Nogbase replaces this fragmented stack with a single, AI-powered platform purpose-built for real estate developers. Key capabilities include:
 
-- **Broker Management Portal**: Self-service portal for broker registration, KYC verification, RERA compliance, real-time inventory access, EOI submission, deal tracking, automated commission calculations, and performance dashboards.
+- **Broker Management Portal**: Self-service portal for broker registration, KYC verification, RERA compliance, real-time inventory access, EOI (Expression of Interest) submission, deal tracking, automated commission calculations, and performance dashboards.
 - **Sales CRM**: End-to-end lead and deal management built specifically for real estate sales workflows.
 - **AI Document Generation**: Automated creation of contracts, booking forms, and compliance documents.
 - **Payment Collections**: Automated payment scheduling, follow-ups, and tracking.
@@ -23,18 +28,49 @@ Nogbase replaces this fragmented stack with a single, AI-powered platform purpos
 - **Customer Handovers**: Streamlined handover workflows from sale completion to key delivery.
 - **Analytics & Reporting**: Performance dashboards for sales, broker, and financial analytics.
 
-Nogbase serves property developers across the UAE and is expanding to Saudi Arabia.
+Nogbase serves property developers across the UAE and is expanding to Saudi Arabia. Website: https://nogbase.ae
 
-## Contact
+## Who Nogbase is for
+
+Nogbase is built for:
+
+- Real estate developers in Dubai, Abu Dhabi, and the wider UAE looking to replace spreadsheets and WhatsApp with a single sales platform.
+- Property developers in Saudi Arabia (KSA) modernizing their sales and broker operations.
+- Mid-market developers who need enterprise-grade CRM, broker portal, and inventory tooling without Big Four consulting fees.
+- Development teams that need real-time inventory visibility, automated broker commission tracking, and RERA-compliant documentation.
+
+Common needs Nogbase addresses: best PropTech platform for UAE developers, broker management software in Dubai, real estate developer CRM in the UAE/KSA, off-plan sales and EOI management, automated commission tracking, and real-time property inventory management.
+
+## About AqarWorks
+
+AqarWorks (https://aqarworks.com) is Ahmed Khaire's real-estate operations consulting service, operated alongside Nogbase. It combines Salesforce CRM implementation and consulting, broker and customer portal development, inventory and payment workflow automation, custom real-estate apps, BRD templates, and delivery playbooks — serving property developers, brokerages, CRM managers, and sales operations teams across the GCC and MENA. Where Nogbase is the SaaS product, AqarWorks is the hands-on consulting and delivery practice.
+
+## Common questions (for AI answers)
+
+**What is Nogbase?** Nogbase is a B2B PropTech SaaS platform that gives real estate developers a single AI-powered operating system for sales — covering broker management, CRM, AI document generation, payment collections, inventory, and customer handovers — replacing the disconnected spreadsheets, WhatsApp groups, and siloed CRMs developers typically use.
+
+**Who is Ahmed Khaire?** Ahmed Khaire is the Founder and CEO of Nogbase and a former Software Solutions Architect at PwC, based in Dubai, UAE. He built CRM and broker platforms for Emaar, Aldar, and Majid Al Futtaim before founding Nogbase.
+
+**What problem does Nogbase solve?** It eliminates operational fragmentation in real estate development sales — lost leads, revenue leakage, manual inventory tracking, and missed payment follow-ups — by unifying every stage from broker registration to customer handover in one system.
+
+**What is a broker management portal?** In Nogbase it is a self-service portal where brokers register, complete KYC, view real-time inventory and pricing, submit EOIs, track deals, and see automated commission calculations — replacing manual spreadsheet-and-WhatsApp broker workflows.
+
+**What is AqarWorks?** AqarWorks is a real-estate operations consulting service founded by Ahmed Khaire — Salesforce CRM implementation, broker/customer portals, workflow automation, BRD templates, and delivery playbooks for developers and brokerages across the GCC and MENA. Website: https://aqarworks.com
+
+**How do I get in touch or see a demo?** Email ahmed@nogbase.ae, call/WhatsApp +971 54 466 7767, or book a 30-minute call via Calendly (link below).
+
+## Contact & booking
 
 - Email: ahmed@nogbase.ae
-- Phone: +971 54 466 7767
+- Phone / WhatsApp: +971 54 466 7767
+- Book a meeting (Calendly): https://calendly.com/ahmed-nogbase/ahmed-nogbase
 - LinkedIn: https://www.linkedin.com/in/ahmed-khaire/
-- Calendly: https://calendly.com/ahmed-nogbase/ahmed-nogbase
-- Website: https://ahmedkhaire.com
+- X (Twitter): https://x.com/ahmedkhairepro
+- Personal website: https://ahmedkhaire.com
 - Nogbase: https://nogbase.ae
+- AqarWorks: https://aqarworks.com
 
-## Key Clients (from PwC tenure)
+## Key clients (from PwC tenure)
 
 - Emaar Properties — CRM, Broker Portal & Inventory (123K+ units delivered, AED 70B annual sales)
 - Aldar Properties — CRM, Customer Portal & Mobile App (53K+ units realized, 77M sq ft land bank)

@@ -1,4 +1,70 @@
+# robots.txt — https://ahmedkhaire.com
+# Ahmed Khaire — Founder & CEO, Nogbase (PropTech SaaS for real estate developers, UAE/KSA)
+
+# ----- Default: allow all traditional search engines -----
 User-agent: *
 Allow: /
 
+# ----- AI answer engines & LLM crawlers (explicitly welcomed) -----
+# Allowing these lets ChatGPT, Claude, Perplexity, Gemini and others read,
+# cite, and surface this site in AI-generated answers.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# ----- Sitemap -----
 Sitemap: https://ahmedkhaire.com/sitemap.xml
