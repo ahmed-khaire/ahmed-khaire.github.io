@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldar Properties Case Study — Multi-Cloud CRM, Customer Portal & Mobile App | Ahmed Khaire</title>
+    <meta name="description" content="How Ahmed Khaire architected a multi-cloud Salesforce solution — Sales, Service & Experience Cloud with a customer portal and mobile app — for Aldar Properties, Abu Dhabi's largest developer.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="canonical" href="https://ahmedkhaire.com/case-studies/aldar">
+    <meta name="theme-color" content="#2B6777">
+
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Ahmed Khaire">
+    <meta property="og:title" content="Aldar Properties Case Study — Multi-Cloud CRM, Customer Portal & Mobile App">
+    <meta property="og:description" content="Full CRM implementation with a customer-facing portal and mobile app for Abu Dhabi's largest developer.">
+    <meta property="og:image" content="https://ahmedkhaire.com/assets/og-image.jpg">
+    <meta property="og:url" content="https://ahmedkhaire.com/case-studies/aldar">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Aldar Properties — Multi-Cloud CRM, Customer Portal & Mobile App",
+        "description": "Case study: full Salesforce CRM implementation with a customer-facing portal and mobile app for Aldar Properties, spanning Yas Island, Saadiyat, and Al Raha communities.",
+        "author": { "@type": "Person", "name": "Ahmed Khaire", "url": "https://ahmedkhaire.com" },
+        "about": { "@type": "Organization", "name": "Aldar Properties" },
+        "url": "https://ahmedkhaire.com/case-studies/aldar",
+        "dateModified": "2026-07-07",
+        "image": "https://ahmedkhaire.com/assets/og-image.jpg"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ahmedkhaire.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": "https://ahmedkhaire.com/#projects" },
+            { "@type": "ListItem", "position": 3, "name": "Aldar Properties", "item": "https://ahmedkhaire.com/case-studies/aldar" }
+        ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/case-study.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='18' width='100' height='100' fill='%232B6777'/><text x='50' y='68' font-size='48' font-family='Georgia,serif' fill='%23F0EBE3' text-anchor='middle'>AK</text></svg>">
+</head>
+<body>
+
+    <header class="topbar" role="banner">
+        <a href="/" class="topbar__name">Ahmed Khaire</a>
+        <div class="topbar__right">
+            <a href="/" class="topbar__link">Home</a>
+            <a href="/cv" class="topbar__link">CV</a>
+            <a href="https://calendly.com/ahmed-nogbase/ahmed-nogbase" target="_blank" rel="noopener" class="topbar__cta">
+                Book a Meeting
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </header>
+
+    <main class="sheet" role="main">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/#projects">Case Studies</a> / Aldar Properties</nav>
+
+        <article class="paper">
+            <header class="cs-head">
+                <div class="cs-head__eyebrow">Case Study · Real Estate</div>
+                <div class="cs-head__logo-row">
+                    <img src="../assets/logos/aldar-real.png" alt="Aldar Properties logo" class="cs-head__logo">
+                    <h1 class="cs-head__title">Aldar Properties — Multi-Cloud CRM, Customer Portal &amp; Mobile App</h1>
+                </div>
+                <p class="cs-head__sub">A full Salesforce implementation for Abu Dhabi's largest developer — integrating Sales, Service, and Experience Cloud with a customer-facing portal and mobile app across Yas Island, Saadiyat, and Al Raha communities.</p>
+                <div class="cs-head__meta">
+                    <div><strong>53K+</strong><span>Units realized by Aldar</span></div>
+                    <div><strong>77M</strong><span>Sq ft land bank</span></div>
+                    <div><strong>3 Clouds</strong><span>Sales · Service · Experience</span></div>
+                </div>
+            </header>
+
+            <div class="cs-body">
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">The Client</h2>
+                    <p><strong>Aldar Properties</strong> is Abu Dhabi's leading developer — behind Yas Island's landmark destinations, Saadiyat's cultural district, and residential communities housing hundreds of thousands of people. Aldar's relationship with a customer doesn't end at booking: handovers, service requests, community fees, and ongoing communication all shape the owner experience for years.</p>
+                    <p>This engagement was delivered during Ahmed's tenure as <a href="/cv">Software Solution Architect at PwC</a>.</p>
+                </section>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">The Challenge</h2>
+                    <p>Most developer CRMs stop at the sale. Aldar needed the opposite: one platform spanning the entire customer relationship — from first enquiry through booking, payment milestones, handover, and post-handover service — accessible to customers directly through a portal and mobile app rather than call centers and email threads.</p>
+                </section>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">What Was Delivered</h2>
+                    <ul class="cs-points">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Full CRM implementation</strong> on Sales Cloud — lead-to-booking pipeline for off-plan and ready inventory across Aldar's communities.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Service Cloud</strong> handling post-sales cases — handover scheduling, snagging, service requests, and owner communications with SLA tracking.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Customer portal and mobile app</strong> on Experience Cloud — owners see their units, documents, payment schedules, and service cases in one place, on any device.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Cross-cloud data architecture</strong> keeping the customer, unit, and financial record consistent across all three clouds and integrated back-office systems.</span></li>
+                    </ul>
+                </section>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">Architecture Highlights</h2>
+                    <div class="cs-grid">
+                        <div class="cs-tile"><h3>One customer record</h3><p>A unified data model spanning sales, service, and self-service — no duplicate customers, no conflicting unit data between channels.</p></div>
+                        <div class="cs-tile"><h3>Mobile-first self-service</h3><p>Experience Cloud portal and mobile app moving routine interactions — statements, documents, requests — out of call centers.</p></div>
+                        <div class="cs-tile"><h3>Lifecycle automation</h3><p>Milestone-driven automation for payment reminders, handover workflows, and case routing across departments.</p></div>
+                        <div class="cs-tile"><h3>Integration backbone</h3><p>API-led integration with ERP and document systems so financial and legal records stay authoritative.</p></div>
+                    </div>
+                </section>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">Capabilities Used</h2>
+                    <div class="tag-row">
+                        <span class="tag">Sales Cloud</span><span class="tag">Service Cloud</span><span class="tag">Experience Cloud</span><span class="tag">Mobile App</span><span class="tag">Apex &amp; Lightning</span><span class="tag">REST APIs</span><span class="tag">ERP Integration</span><span class="tag">Data Modeling</span>
+                    </div>
+                </section>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">Why It Matters Now</h2>
+                    <p>Customer handovers and post-sales service are where developer reputations are made or lost. The lifecycle patterns proven at Aldar inform the handover and customer-app modules in <a href="https://nogbase.ae" target="_blank" rel="noopener">Nogbase</a>, and are available as consulting delivery through <a href="https://aqarworks.com" target="_blank" rel="noopener">AqarWorks</a>.</p>
+                </section>
+
+                <div class="cs-cta">
+                    <div>
+                        <h2>Building something similar?</h2>
+                        <p>30-minute intro call — customer portals, handover workflows, or multi-cloud CRM.</p>
+                    </div>
+                    <a href="https://calendly.com/ahmed-nogbase/ahmed-nogbase" target="_blank" rel="noopener" class="cs-cta__btn">
+                        Book a Meeting
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">More Case Studies</h2>
+                    <div class="cs-related">
+                        <a href="/case-studies/emaar"><strong>Emaar Properties</strong><span>CRM, broker portal &amp; inventory</span></a>
+                        <a href="/case-studies/majid-al-futtaim"><strong>Majid Al Futtaim</strong><span>Enterprise CRM across 3 countries</span></a>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <script>
+        const topbar = document.querySelector('.topbar');
+        addEventListener('scroll', () => topbar.classList.toggle('topbar--scrolled', scrollY > 8), { passive:true });
+    </script>
+</body>
+</html>

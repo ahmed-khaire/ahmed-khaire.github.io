@@ -551,6 +551,12 @@
         .project__desc { font-size:0.78rem; color:var(--text-2); line-height:1.55; flex:1; }
         .project__stats { display:flex; gap:12px; margin-top:10px; padding-top:10px; border-top:1px solid var(--border); }
         .project__stats > div { display:flex; flex-direction:column; }
+        .project__cta {
+            display:inline-flex; align-items:center; gap:5px; margin-top:10px;
+            font-size:0.78rem; font-weight:600; color:var(--accent); transition:gap 0.2s;
+        }
+        .project__cta:hover { gap:8px; }
+        .project__cta svg { width:12px; height:12px; }
         .project__stat-value { font-family:var(--serif); font-size:1.05rem; color:var(--accent); line-height:1; }
         .project__stat-label { font-size:0.68rem; color:var(--text-3); font-weight:500; margin-top:1px; }
 
@@ -882,10 +888,16 @@
                     <span class="nogbase-card__feature">Customer Handovers</span>
                     <span class="nogbase-card__feature">Analytics</span>
                 </div>
-                <a href="https://nogbase.ae" target="_blank" rel="noopener" class="nogbase-card__link">
-                    Visit nogbase.ae
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </a>
+                <div style="display:flex; gap:18px; align-items:center; flex-wrap:wrap;">
+                    <a href="resources/broker-portal-brd-template.html" class="nogbase-card__link">
+                        Free: Broker Portal BRD Template
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                    </a>
+                    <a href="https://nogbase.ae" target="_blank" rel="noopener" class="nogbase-card__link">
+                        Visit nogbase.ae
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
             </div>
         </article>
 
@@ -978,6 +990,7 @@
                         <div><span class="project__stat-value">123K+</span><span class="project__stat-label">Units Delivered</span></div>
                         <div><span class="project__stat-value">AED 70B</span><span class="project__stat-label">Annual Sales</span></div>
                     </div>
+                    <a href="case-studies/emaar.html" class="project__cta">Read case study <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
                 </div>
                 <div class="project">
                     <div class="project__header">
@@ -990,6 +1003,7 @@
                         <div><span class="project__stat-value">53K+</span><span class="project__stat-label">Units Realized</span></div>
                         <div><span class="project__stat-value">77M</span><span class="project__stat-label">Sq Ft Land Bank</span></div>
                     </div>
+                    <a href="case-studies/aldar.html" class="project__cta">Read case study <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
                 </div>
                 <div class="project">
                     <div class="project__header">
@@ -1003,6 +1017,7 @@
                         <div><span class="project__stat-value">29</span><span class="project__stat-label">Malls</span></div>
                         <div><span class="project__stat-value">13</span><span class="project__stat-label">Hotels</span></div>
                     </div>
+                    <a href="case-studies/majid-al-futtaim.html" class="project__cta">Read case study <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
                 </div>
             </div>
         </article>
