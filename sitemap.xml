@@ -2,14 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://ahmedkhaire.com/</loc>
-        <lastmod>2026-03-30</lastmod>
+        <lastmod>2026-07-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://nogbase.ae/blog</loc>
-        <lastmod>2026-03-30</lastmod>
-        <changefreq>weekly</changefreq>
+        <loc>https://ahmedkhaire.com/cv</loc>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ahmedkhaire.com/case-studies/emaar</loc>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://ahmedkhaire.com/case-studies/aldar</loc>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://ahmedkhaire.com/case-studies/majid-al-futtaim</loc>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://ahmedkhaire.com/resources/broker-portal-brd-template</loc>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
     </url>
 </urlset>

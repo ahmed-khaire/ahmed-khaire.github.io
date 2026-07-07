@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Broker Portal BRD Template for Real Estate Developers | Ahmed Khaire</title>
+    <meta name="description" content="A free, field-tested Business Requirements Document (BRD) template for building a real estate broker management portal — broker onboarding, KYC, inventory access, EOI submission, commission tracking, and integrations. Written by Ahmed Khaire, ex-PwC Solution Architect for Emaar and Aldar.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="canonical" href="https://ahmedkhaire.com/resources/broker-portal-brd-template">
+    <meta name="theme-color" content="#2B6777">
+
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Ahmed Khaire">
+    <meta property="og:title" content="Free Broker Portal BRD Template for Real Estate Developers">
+    <meta property="og:description" content="The requirements checklist used on enterprise broker portal builds — onboarding, KYC, inventory, EOIs, commissions, integrations. Free to use and download.">
+    <meta property="og:image" content="https://ahmedkhaire.com/assets/og-image.jpg">
+    <meta property="og:url" content="https://ahmedkhaire.com/resources/broker-portal-brd-template">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Broker Portal BRD Template for Real Estate Developers",
+        "description": "A free Business Requirements Document template covering broker onboarding, KYC, real-time inventory access, EOI submission, commission management, integrations, and security for real estate developer broker portals.",
+        "author": { "@type": "Person", "name": "Ahmed Khaire", "url": "https://ahmedkhaire.com" },
+        "url": "https://ahmedkhaire.com/resources/broker-portal-brd-template",
+        "dateModified": "2026-07-07",
+        "image": "https://ahmedkhaire.com/assets/og-image.jpg"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ahmedkhaire.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://ahmedkhaire.com/resources/broker-portal-brd-template" },
+            { "@type": "ListItem", "position": 3, "name": "Broker Portal BRD Template", "item": "https://ahmedkhaire.com/resources/broker-portal-brd-template" }
+        ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/case-study.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='18' width='100' height='100' fill='%232B6777'/><text x='50' y='68' font-size='48' font-family='Georgia,serif' fill='%23F0EBE3' text-anchor='middle'>AK</text></svg>">
+
+    <style>
+        .brd-sec { border:1px solid var(--border); border-radius:var(--r-sm); overflow:hidden; }
+        .brd-sec + .brd-sec { margin-top:14px; }
+        .brd-sec__head {
+            display:flex; align-items:baseline; gap:10px; padding:13px 18px;
+            background:var(--accent-sub); border-bottom:1px solid var(--border);
+        }
+        .brd-sec__num { font-family:var(--serif); font-size:1.1rem; color:var(--accent); }
+        .brd-sec__title { font-weight:700; font-size:0.92rem; }
+        .brd-sec__body { padding:14px 18px 16px; }
+        .brd-sec__why { font-size:0.8rem; color:var(--text-3); font-style:italic; margin-bottom:10px; }
+        .brd-check { list-style:none; display:flex; flex-direction:column; gap:7px; }
+        .brd-check li { display:flex; gap:9px; font-size:0.84rem; color:var(--text-2); line-height:1.55; }
+        .brd-check li::before {
+            content:''; width:13px; height:13px; flex-shrink:0; margin-top:4px;
+            border:1.5px solid var(--accent); border-radius:3px; opacity:0.7;
+        }
+        .brd-check strong { color:var(--text); font-weight:600; }
+        .brd-fill { color:var(--accent); background:var(--accent-sub); padding:0 5px; border-radius:3px; font-size:0.8em; white-space:nowrap; }
+        @media print {
+            body { background:#fff; } body::after, .topbar, .crumbs, .cs-cta, .cs-related-wrap { display:none; }
+            .sheet { margin:0; padding:0; max-width:none; }
+            .paper { border:none; box-shadow:none; }
+            .brd-sec { break-inside:avoid; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="topbar" role="banner">
+        <a href="/" class="topbar__name">Ahmed Khaire</a>
+        <div class="topbar__right">
+            <a href="/" class="topbar__link">Home</a>
+            <a href="/cv" class="topbar__link">CV</a>
+            <a href="../assets/Broker-Portal-BRD-Template.pdf" download="Broker-Portal-BRD-Template.pdf" class="topbar__cta">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                Download PDF
+            </a>
+        </div>
+    </header>
+
+    <main class="sheet" role="main">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Resources / Broker Portal BRD Template</nav>
+
+        <article class="paper">
+            <header class="cs-head">
+                <div class="cs-head__eyebrow">Free Resource · Template</div>
+                <h1 class="cs-head__title">Broker Portal BRD Template for Real Estate Developers</h1>
+                <p class="cs-head__sub">The requirements checklist I use when scoping broker management portals — refined across enterprise builds for developers like Emaar and Aldar. Copy it, fill in the <span class="brd-fill">[highlighted]</span> blanks with your own answers, and you have a Business Requirements Document your vendor or internal team can actually build from.</p>
+                <div class="cs-head__meta">
+                    <div><strong>12</strong><span>Requirement sections</span></div>
+                    <div><strong>Free</strong><span>No sign-up needed</span></div>
+                    <div><strong>PDF</strong><span>Download &amp; share</span></div>
+                </div>
+            </header>
+
+            <div class="cs-body">
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">How to use this template</h2>
+                    <p>Work through each section with your sales, finance, and IT leads. Every unanswered checkbox is a decision your project will otherwise make by accident — usually during UAT, at the most expensive possible moment. If a section doesn't apply, delete it and note why; a short honest BRD beats a long aspirational one.</p>
+                </section>
+
+                <section class="cs-sec" aria-label="BRD sections">
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">01</span><span class="brd-sec__title">Project Overview &amp; Objectives</span></div>
+                        <div class="brd-sec__body">
+                            <p class="brd-sec__why">Anchors every later trade-off. If you can't measure the objective, you can't accept the delivery.</p>
+                            <ul class="brd-check">
+                                <li><span>Business problem in one paragraph — what breaks today without a portal? <span class="brd-fill">[current process &amp; pain]</span></span></li>
+                                <li><span>Measurable objectives, e.g. broker onboarding time from <span class="brd-fill">[X days]</span> to <span class="brd-fill">[Y hours]</span>; EOI-to-booking conversion; commission payout cycle time.</span></li>
+                                <li><span>In-scope projects/communities at launch <span class="brd-fill">[list]</span> and explicit exclusions.</span></li>
+                                <li><span>Launch deadline and what drives it (project launch date, sales event) <span class="brd-fill">[date]</span>.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">02</span><span class="brd-sec__title">Stakeholders &amp; Roles</span></div>
+                        <div class="brd-sec__body">
+                            <p class="brd-sec__why">Portals fail on unclear ownership more than on missing features.</p>
+                            <ul class="brd-check">
+                                <li><span>Internal roles: sales admin, broker relations, finance, legal/compliance, IT — with a named owner per area <span class="brd-fill">[names]</span>.</span></li>
+                                <li><span>External roles: agency owner, agency admin, individual agent — and what each may see and do.</span></li>
+                                <li><span>Decision authority: who approves brokers, deals, and commission exceptions?</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">03</span><span class="brd-sec__title">Broker Onboarding &amp; KYC</span></div>
+                        <div class="brd-sec__body">
+                            <p class="brd-sec__why">Self-service registration is the single biggest time-saver a portal delivers — if the document and approval rules are defined up front.</p>
+                            <ul class="brd-check">
+                                <li><span>Registration flows for <strong>agencies</strong> vs <strong>individual agents</strong>; can agents self-register under an approved agency?</span></li>
+                                <li><span>Required documents: trade license, RERA/DED broker card, Emirates ID/passport, VAT certificate, bank details <span class="brd-fill">[adjust per market — RERA (Dubai), ADREC (Abu Dhabi), REGA (KSA)]</span>.</span></li>
+                                <li><span>Document expiry tracking and automatic re-verification reminders.</span></li>
+                                <li><span>Approval workflow: steps, SLA per step <span class="brd-fill">[e.g. 48h]</span>, rejection reasons, re-application rules.</span></li>
+                                <li><span>Broker agreement signature — wet ink or e-signature <span class="brd-fill">[provider]</span> — before activation.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">04</span><span class="brd-sec__title">Inventory Access &amp; Availability</span></div>
+                        <div class="brd-sec__body">
+                            <p class="brd-sec__why">Stale availability is how units get double-booked and brokers lose trust in the portal.</p>
+                            <ul class="brd-check">
+                                <li><span>Source of truth for unit status <span class="brd-fill">[CRM / ERP / portal]</span> and maximum acceptable sync lag <span class="brd-fill">[seconds/minutes]</span>.</span></li>
+                                <li><span>What brokers see per unit: price, floor plan, view, payment plan, service charge — and what they must not see <span class="brd-fill">[e.g. discounts, margins]</span>.</span></li>
+                                <li><span>Visibility rules: all inventory to all brokers, or tiered/allocated releases per agency?</span></li>
+                                <li><span>Unit hold mechanism: who can hold, hold duration <span class="brd-fill">[minutes]</span>, auto-release rules.</span></li>
+                                <li><span>Launch-day mode: expected concurrent brokers <span class="brd-fill">[number]</span> and queue/fairness rules for hot releases.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">05</span><span class="brd-sec__title">Client Registration &amp; Conflict Rules</span></div>
+                        <div class="brd-sec__body">
+                            <p class="brd-sec__why">The most disputed area of any broker program. Write the rules before the first dispute, not after.</p>
+                            <ul class="brd-check">
+                                <li><span>Client registration: which fields identify a client <span class="brd-fill">[passport / Emirates ID / phone]</span>?</span></li>
+                                <li><span>Protection rules: first-to-register wins for <span class="brd-fill">[X days]</span>? What renews protection?</span></li>
+                                <li><span>Conflict resolution: what happens when two brokers claim one client — automated rule, escalation path, final authority.</span></li>
+                                <li><span>Direct-client collision: rules when a registered broker client approaches the developer directly.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">06</span><span class="brd-sec__title">EOI &amp; Deal Submission</span></div>
+                        <div class="brd-sec__body">
+                            <p class="brd-sec__why">This is the pipeline your sales team will live in — every stage needs an owner and an SLA.</p>
+                            <ul class="brd-check">
+                                <li><span>EOI form contents and required attachments; token/EOI amount <span class="brd-fill">[amount]</span> and payment method (gateway, transfer, cheque).</span></li>
+                                <li><span>Deal stages from EOI → allocation → booking → SPA <span class="brd-fill">[your stages]</span>, with owner and SLA per stage.</span></li>
+                                <li><span>Broker visibility: which stages and statuses can the broker track in the portal?</span></li>
+                                <li><span>Refund and cancellation flow for failed or withdrawn EOIs.</span></li>
+                                <li><span>Document generation: reservation forms and SPAs auto-generated from deal data <span class="brd-fill">[templates list]</span>.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">07</span><span class="brd-sec__title">Commission Management</span></div>
+                        <div class="brd-sec__body">
+                            <p class="brd-sec__why">Automated, transparent commissions are the #1 reason brokers prefer one developer's portal over another's.</p>
+                            <ul class="brd-check">
+                                <li><span>Commission structures: flat %, tiered by volume, per-project overrides, launch incentives <span class="brd-fill">[your structure]</span>.</span></li>
+                                <li><span>Trigger point: what makes commission payable <span class="brd-fill">[e.g. SPA + X% collected]</span>?</span></li>
+                                <li><span>Calculation transparency: can the broker see expected commission per deal, and a statement of pending vs paid?</span></li>
+                                <li><span>Invoice submission flow (broker-uploaded vs auto-generated) and VAT handling.</span></li>
+                                <li><span>Approval chain and payout SLA <span class="brd-fill">[days]</span>; clawback rules for cancelled deals.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">08</span><span class="brd-sec__title">Communications &amp; Notifications</span></div>
+                        <div class="brd-sec__body">
+                            <ul class="brd-check">
+                                <li><span>Notification events (approval, new release, deal stage change, commission paid) and channels per event <span class="brd-fill">[email / WhatsApp / push / in-portal]</span>.</span></li>
+                                <li><span>WhatsApp Business API usage and template approval ownership.</span></li>
+                                <li><span>Broadcast tools: who can announce releases/price changes to the broker network, with what approval?</span></li>
+                                <li><span>Language requirements <span class="brd-fill">[English / Arabic / both]</span>.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">09</span><span class="brd-sec__title">Dashboards &amp; Reporting</span></div>
+                        <div class="brd-sec__body">
+                            <ul class="brd-check">
+                                <li><span>Broker-facing: pipeline, conversion, commission earned, ranking/leaderboard <span class="brd-fill">[yes/no]</span>.</span></li>
+                                <li><span>Developer-facing: sales by agency/agent/project, EOI aging, commission liability, top-broker analysis.</span></li>
+                                <li><span>Exports and scheduled reports for management <span class="brd-fill">[recipients &amp; cadence]</span>.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">10</span><span class="brd-sec__title">Integrations</span></div>
+                        <div class="brd-sec__body">
+                            <p class="brd-sec__why">List every system the portal must talk to — each one is a workstream with its own owner on the other side.</p>
+                            <ul class="brd-check">
+                                <li><span>CRM <span class="brd-fill">[Salesforce / Dynamics / other]</span> — direction of sync for leads, deals, and clients.</span></li>
+                                <li><span>ERP/finance <span class="brd-fill">[Oracle / SAP / other]</span> — receipts, invoices, commission payouts.</span></li>
+                                <li><span>Payment gateway <span class="brd-fill">[provider]</span> for EOI/token payments, with reconciliation flow.</span></li>
+                                <li><span>E-signature, document management, and WhatsApp API providers <span class="brd-fill">[providers]</span>.</span></li>
+                                <li><span>SSO/identity for internal users <span class="brd-fill">[Azure AD / Okta / other]</span>.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">11</span><span class="brd-sec__title">Security, Compliance &amp; Non-Functional</span></div>
+                        <div class="brd-sec__body">
+                            <ul class="brd-check">
+                                <li><span>Regulatory: RERA/ADREC/REGA record-keeping, marketing permit rules, anti-money-laundering checks <span class="brd-fill">[per market]</span>.</span></li>
+                                <li><span>Data privacy (UAE PDPL / KSA PDPL): consent capture, retention periods, data residency <span class="brd-fill">[region]</span>.</span></li>
+                                <li><span>Access model: agency-level data isolation — one agency must never see another's clients or deals.</span></li>
+                                <li><span>Performance targets: page load <span class="brd-fill">[s]</span>, concurrent users at launch <span class="brd-fill">[n]</span>, uptime <span class="brd-fill">[%]</span>.</span></li>
+                                <li><span>Audit trail on every deal, price, and commission change.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="brd-sec">
+                        <div class="brd-sec__head"><span class="brd-sec__num">12</span><span class="brd-sec__title">Acceptance Criteria &amp; Rollout</span></div>
+                        <div class="brd-sec__body">
+                            <ul class="brd-check">
+                                <li><span>UAT scenarios per section above — written by the business owner, not the vendor.</span></li>
+                                <li><span>Pilot group: <span class="brd-fill">[n]</span> friendly agencies before full network rollout.</span></li>
+                                <li><span>Broker training and onboarding materials <span class="brd-fill">[owner]</span>; support channel for brokers post-launch.</span></li>
+                                <li><span>Success review at <span class="brd-fill">[30/60/90]</span> days against the Section 01 objectives.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="cs-cta">
+                    <div>
+                        <h2>Want this built — or reviewed?</h2>
+                        <p>Nogbase ships a ready-made broker portal; AqarWorks scopes and builds custom ones. Either way, the first call is free.</p>
+                    </div>
+                    <a href="https://calendly.com/ahmed-nogbase/ahmed-nogbase" target="_blank" rel="noopener" class="cs-cta__btn">
+                        Book a Meeting
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+
+                <section class="cs-sec cs-related-wrap">
+                    <h2 class="cs-sec__label">Related</h2>
+                    <div class="cs-related">
+                        <a href="/case-studies/emaar"><strong>Emaar case study</strong><span>Broker portal &amp; inventory at launch scale</span></a>
+                        <a href="https://nogbase.ae" target="_blank" rel="noopener"><strong>Nogbase</strong><span>Broker portal as a ready-made platform</span></a>
+                        <a href="https://aqarworks.com" target="_blank" rel="noopener"><strong>AqarWorks</strong><span>More templates &amp; delivery playbooks</span></a>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <script>
+        const topbar = document.querySelector('.topbar');
+        addEventListener('scroll', () => topbar.classList.toggle('topbar--scrolled', scrollY > 8), { passive:true });
+    </script>
+</body>
+</html>
