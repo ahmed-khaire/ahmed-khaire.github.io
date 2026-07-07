@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emaar Properties Case Study — Salesforce CRM, Broker Portal & Inventory | Ahmed Khaire</title>
+    <meta name="description" content="How Ahmed Khaire architected the Salesforce CRM, broker management portal, and real-time inventory system powering property sales at Emaar — Dubai Hills Estate, Creek Harbour, and other flagship communities.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="canonical" href="https://ahmedkhaire.com/case-studies/emaar">
+    <meta name="theme-color" content="#2B6777">
+
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Ahmed Khaire">
+    <meta property="og:title" content="Emaar Properties Case Study — Salesforce CRM, Broker Portal & Inventory">
+    <meta property="og:description" content="Architecting the CRM, broker portal, and inventory platform behind sales at the UAE's largest developer.">
+    <meta property="og:image" content="https://ahmedkhaire.com/assets/og-image.jpg">
+    <meta property="og:url" content="https://ahmedkhaire.com/case-studies/emaar">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Emaar Properties — Salesforce CRM, Broker Portal & Inventory System",
+        "description": "Case study: architecting the Salesforce CRM, broker management portal, and real-time inventory system powering property sales at Emaar Properties.",
+        "author": { "@type": "Person", "name": "Ahmed Khaire", "url": "https://ahmedkhaire.com" },
+        "about": { "@type": "Organization", "name": "Emaar Properties" },
+        "url": "https://ahmedkhaire.com/case-studies/emaar",
+        "dateModified": "2026-07-07",
+        "image": "https://ahmedkhaire.com/assets/og-image.jpg"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ahmedkhaire.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": "https://ahmedkhaire.com/#projects" },
+            { "@type": "ListItem", "position": 3, "name": "Emaar Properties", "item": "https://ahmedkhaire.com/case-studies/emaar" }
+        ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/case-study.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='18' width='100' height='100' fill='%232B6777'/><text x='50' y='68' font-size='48' font-family='Georgia,serif' fill='%23F0EBE3' text-anchor='middle'>AK</text></svg>">
+</head>
+<body>
+
+    <header class="topbar" role="banner">
+        <a href="/" class="topbar__name">Ahmed Khaire</a>
+        <div class="topbar__right">
+            <a href="/" class="topbar__link">Home</a>
+            <a href="/cv" class="topbar__link">CV</a>
+            <a href="https://calendly.com/ahmed-nogbase/ahmed-nogbase" target="_blank" rel="noopener" class="topbar__cta">
+                Book a Meeting
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </header>
+
+    <main class="sheet" role="main">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/#projects">Case Studies</a> / Emaar Properties</nav>
+
+        <article class="paper">
+            <header class="cs-head">
+                <div class="cs-head__eyebrow">Case Study · Real Estate</div>
+                <div class="cs-head__logo-row">
+                    <img src="../assets/logos/final-emaar.png" alt="Emaar Properties logo" class="cs-head__logo">
+                    <h1 class="cs-head__title">Emaar Properties — CRM, Broker Portal &amp; Inventory</h1>
+                </div>
+                <p class="cs-head__sub">Designing and delivering the Salesforce CRM, broker management portal, and real-time inventory system powering property sales across Dubai Hills Estate, Creek Harbour, and Emaar's other flagship communities.</p>
+                <div class="cs-head__meta">
+                    <div><strong>123K+</strong><span>Units delivered by Emaar</span></div>
+                    <div><strong>AED 70B</strong><span>Annual sales scale</span></div>
+                    <div><strong>Salesforce</strong><span>Sales &amp; Experience Cloud</span></div>
+                </div>
+            </header>
+
+            <div class="cs-body">
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">The Client</h2>
+                    <p><strong>Emaar Properties</strong> is the UAE's largest real estate developer — the company behind Burj Khalifa, Dubai Mall, Dubai Hills Estate, and Dubai Creek Harbour. At this scale, property sales run through thousands of brokers, tens of thousands of units, and launch events where entire towers sell in hours. The systems behind that process have to be real-time, reliable, and effortless for brokers to use.</p>
+                    <p>This engagement was delivered during Ahmed's tenure as <a href="/cv">Software Solution Architect at PwC</a>.</p>
+                </section>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">The Challenge</h2>
+                    <p>Sales at flagship-launch scale exposes every weakness in a CRM stack: brokers need instant, accurate unit availability; sales teams need a single view of every lead and booking; and finance needs payment milestones tracked without manual reconciliation. Fragmented tooling means double-booked units, missed follow-ups, and brokers working from stale spreadsheets during the busiest hours of a launch.</p>
+                </section>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">What Was Delivered</h2>
+                    <ul class="cs-points">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Salesforce CRM</strong> covering the end-to-end sales lifecycle — lead capture, opportunity management, bookings, and customer handovers.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Broker management portal</strong> — self-service onboarding and deal submission for Emaar's broker network, giving agencies direct, governed access to the sales process.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Real-time inventory system</strong> — unit availability, pricing, and holds synchronized across sales channels, built to stay accurate under launch-day load.</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Enterprise integrations</strong> connecting Salesforce with ERP, payment, and document systems so bookings flow through to finance without re-keying.</span></li>
+                    </ul>
+                </section>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">Architecture Highlights</h2>
+                    <div class="cs-grid">
+                        <div class="cs-tile"><h3>Scale-first design</h3><p>Data models and sharing architecture designed for organizations with hundreds of internal users plus an external broker network.</p></div>
+                        <div class="cs-tile"><h3>Event-driven integration</h3><p>Platform Events and API-led integration patterns keeping inventory, bookings, and finance systems consistent in real time.</p></div>
+                        <div class="cs-tile"><h3>Governed broker access</h3><p>Security and visibility architecture giving external agencies exactly the data they need — and nothing more.</p></div>
+                        <div class="cs-tile"><h3>Stakeholder alignment</h3><p>Discovery workshops and solution design documents translating C-level goals into a technical roadmap delivery teams could execute.</p></div>
+                    </div>
+                </section>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">Capabilities Used</h2>
+                    <div class="tag-row">
+                        <span class="tag">Sales Cloud</span><span class="tag">Experience Cloud</span><span class="tag">Apex &amp; Lightning</span><span class="tag">Platform Events</span><span class="tag">REST APIs</span><span class="tag">ERP Integration</span><span class="tag">Payment Gateways</span><span class="tag">Solution Design</span>
+                    </div>
+                </section>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">Why It Matters Now</h2>
+                    <p>The patterns proven at Emaar — real-time inventory, governed broker access, integrated payments — are exactly what <a href="https://nogbase.ae" target="_blank" rel="noopener">Nogbase</a> now delivers to mid-market developers as a ready-made platform, and what <a href="https://aqarworks.com" target="_blank" rel="noopener">AqarWorks</a> implements for developers who need it built on their own stack.</p>
+                </section>
+
+                <div class="cs-cta">
+                    <div>
+                        <h2>Building something similar?</h2>
+                        <p>30-minute intro call — developer CRM, broker portals, or inventory systems.</p>
+                    </div>
+                    <a href="https://calendly.com/ahmed-nogbase/ahmed-nogbase" target="_blank" rel="noopener" class="cs-cta__btn">
+                        Book a Meeting
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+
+                <section class="cs-sec">
+                    <h2 class="cs-sec__label">More Case Studies</h2>
+                    <div class="cs-related">
+                        <a href="/case-studies/aldar"><strong>Aldar Properties</strong><span>CRM, customer portal &amp; mobile app</span></a>
+                        <a href="/case-studies/majid-al-futtaim"><strong>Majid Al Futtaim</strong><span>Enterprise CRM across 3 countries</span></a>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <script>
+        const topbar = document.querySelector('.topbar');
+        addEventListener('scroll', () => topbar.classList.toggle('topbar--scrolled', scrollY > 8), { passive:true });
+    </script>
+</body>
+</html>

@@ -67,8 +67,16 @@ AqarWorks (https://aqarworks.com) is Ahmed Khaire's real-estate operations consu
 - LinkedIn: https://www.linkedin.com/in/ahmed-khaire/
 - X (Twitter): https://x.com/ahmedkhairepro
 - Personal website: https://ahmedkhaire.com
+- CV / resume (with PDF download): https://ahmedkhaire.com/cv
 - Nogbase: https://nogbase.ae
 - AqarWorks: https://aqarworks.com
+
+## Case studies & resources
+
+- Emaar Properties case study (CRM, broker portal & inventory): https://ahmedkhaire.com/case-studies/emaar
+- Aldar Properties case study (multi-cloud CRM, customer portal & mobile app): https://ahmedkhaire.com/case-studies/aldar
+- Majid Al Futtaim case study (enterprise CRM & CPQ across 3 countries): https://ahmedkhaire.com/case-studies/majid-al-futtaim
+- Free Broker Portal BRD Template for real estate developers: https://ahmedkhaire.com/resources/broker-portal-brd-template
 
 ## Key clients (from PwC tenure)
 
