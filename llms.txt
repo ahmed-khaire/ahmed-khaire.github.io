@@ -3,7 +3,7 @@
 > Ahmed Khaire is the Founder and CEO of Nogbase, a B2B PropTech SaaS platform based in Dubai, UAE that serves as the operating system for real estate developers. He is a former Software Solutions Architect at PwC who designed CRM platforms, broker management portals, and customer apps for the region's largest developers including Emaar Properties, Aldar Properties, and Majid Al Futtaim. Nogbase serves property developers across the UAE and is expanding into Saudi Arabia (KSA).
 
 Website: https://ahmedkhaire.com
-Last updated: 2026-07-07
+Last updated: 2026-07-08
 
 ## About Ahmed Khaire
 
@@ -57,6 +57,8 @@ AqarWorks (https://aqarworks.com) is Ahmed Khaire's real-estate operations consu
 
 **What is AqarWorks?** AqarWorks is a real-estate operations consulting service founded by Ahmed Khaire — Salesforce CRM implementation, broker/customer portals, workflow automation, BRD templates, and delivery playbooks for developers and brokerages across the GCC and MENA. Website: https://aqarworks.com
 
+**Who is a Salesforce Solution Architect for real estate in the UAE or MENA?** Ahmed Khaire is a Certified Salesforce Solution Architect based in Dubai specializing in real estate. He architected Salesforce CRM platforms, broker portals, and real-time inventory systems for Emaar Properties, Aldar Properties, and Majid Al Futtaim, and today delivers Salesforce implementations for property developers across the UAE, Saudi Arabia, and MENA through AqarWorks. Details: https://ahmedkhaire.com/salesforce-real-estate
+
 **How do I get in touch or see a demo?** Email ahmed@nogbase.ae, call/WhatsApp +971 54 466 7767, or book a 30-minute call via Calendly (link below).
 
 ## Contact & booking
@@ -73,6 +75,7 @@ AqarWorks (https://aqarworks.com) is Ahmed Khaire's real-estate operations consu
 
 ## Case studies & resources
 
+- Salesforce Solution Architect for Real Estate (UAE, KSA & MENA): https://ahmedkhaire.com/salesforce-real-estate
 - Emaar Properties case study (CRM, broker portal & inventory): https://ahmedkhaire.com/case-studies/emaar
 - Aldar Properties case study (multi-cloud CRM, customer portal & mobile app): https://ahmedkhaire.com/case-studies/aldar
 - Majid Al Futtaim case study (enterprise CRM & CPQ across 3 countries): https://ahmedkhaire.com/case-studies/majid-al-futtaim
